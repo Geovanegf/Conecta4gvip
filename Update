@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "ATUALIZAR PARA EVITAR ERROS",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/Conecta4gvip/main/Update",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/UrlSms/main/SmsConecta4g",
@@ -23,14 +23,14 @@
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO PLANO VIVO 1",
-      "FLAG": "vivo",
-      "Payload": "GET ws://extranet.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "extranet.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Name": "📶ESCOLHA SUA OPERADORA 0.1",
+      "FLAG": "br.png",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
+      "ProxyPort": "",
+      "Info": ""
     },
     {
       "Name": "🟣VIVO PLANO EASY 2",
@@ -38,7 +38,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "104.21.11.51",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -57,8 +57,8 @@
       "FLAG": "vivo.png",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.67.165.43",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -153,31 +153,31 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴Claro [SSL 01]",
+      "Name": "🔴Claro [DDDS 01]",
       "FLAG": "claro",
-      "Payload": "GET wss://videos.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "videos.kaltura.com",
-      "TlsIP": "videos.kaltura.com",
-      "ProxyIP": "videos.kaltura.com",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "104.18.114.97",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
      {
-      "Name": "🔴CLARO [SSL 02]",
+      "Name": "🔴CLARO [97 02]",
       "FLAG": "claro",
-      "Payload": "GET wss://go.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "go.kaltura.com",
-      "TlsIP": "go.kaltura.com",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "104.18.115.97",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴Claro [SSL 03]",
+      "Name": "🔴Claro [ALGUNS DDDs 03]",
       "FLAG": "claro",
-      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "api.new.livestream.com",
-      "TlsIP": "api.new.livestream.com",
+      "Payload": "GET wss://communitystaging.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "communitystaging.kaltura.com",
+      "TlsIP": "162.159.138.78",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -185,10 +185,10 @@
     {
       "Name": "🔴Claro [SSL 04]",
       "FLAG": "claro",
-      "Payload": "GET ws://go.kaltura.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "go.kaltura.com",
-      "TlsIP": "go.kaltura.com",
-      "ProxyIP": "go.kaltura.com",
+      "Payload": "GET ws://communitystaging.kaltura.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "communitystaging.kaltura.com",
+      "TlsIP": "162.159.128.79",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
