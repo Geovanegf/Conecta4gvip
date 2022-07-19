@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "ATUALIZAR PARA EVITAR ERROS",
   "UrlUpdate": "https://raw.githubusercontent.com/Geovanegf/Conecta4gvip/main/Update",
   "Sms": "https://raw.githubusercontent.com/Geovanegf/UrlSms/main/SmsConecta4g",
@@ -188,6 +188,16 @@
       "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "4.icanhazip.com",
       "TlsIP": "104.18.115.97",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO [APN]",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
